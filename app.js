@@ -14,3 +14,5 @@ todoController(app);
 //listen to port
 app.listen(3000);
 console.log("you are listening to port 3000");
+
+// Go to    http://localhost:3000/todo

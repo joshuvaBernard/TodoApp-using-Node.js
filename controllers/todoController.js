@@ -3,8 +3,11 @@ var mongoose = require("mongoose");
 
 //connect to database
 mongoose.connect(
-  // replace password with your password
-  "mongodb+srv://rogueprogrammer:josh@cluster0.2yxwd.mongodb.net/todo?retryWrites=true&w=majority"
+  // Go to mongo db site and get the url
+  // "mongodb://localhost:27017/myapp"
+  // replace password with your password and username with username
+  "mongodb+srv://<username>:<password>@cluster0.2yxwd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  //If dosent work go to mongodb atlas and add your ip
 );
 // cretae a schema - this is like a blueprint
 var todoSchema = new mongoose.Schema({
